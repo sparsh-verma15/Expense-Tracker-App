@@ -74,6 +74,7 @@ export default function Home(){
   const classes = useStyles()
   const [expensePreview, setExpensePreview] = useState({month:0, today:0, yesterday:0})
   const [expenseCategories, setExpenseCategories] = useState([])
+  const [redirectToSignin, setRedirectToSignin] = useState(false)
   const jwt = auth.isAuthenticated()
   useEffect(() => {
       const abortController = new AbortController()
