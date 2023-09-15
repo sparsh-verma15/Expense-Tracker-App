@@ -7,8 +7,8 @@ const config = {
   //   'mongodb://' + (process.env.IP || 'localhost') + ':' +
   //   (process.env.MONGO_PORT || '27017') +
   //   '/mernproject'
-  mongoUri:"mongodb+srv://sparshverma1511:WPQtRreiJO1CTy9e@expense-tracker-db.kulb1tx.mongodb.net/?retryWrites=true&w=majority"
+  mongoUri:"mongodb+srv://sparsh-verma15:0btuTozolVoCYF7c@cluster0.qpoycz1.mongodb.net/"
 }
-//WPQtRreiJO1CTy9e
+//0btuTozolVoCYF7c
 
 export default config
