@@ -10,5 +10,11 @@ const config = {
   mongoUri:"mongodb+srv://sparsh-verma15:0btuTozolVoCYF7c@cluster0.qpoycz1.mongodb.net/"
 }
 //0btuTozolVoCYF7c
+//   mongoUri: process.env.MONGODB_URI ||
+//     process.env.MONGO_HOST ||
+//     'mongodb://' + (process.env.IP || 'localhost') + ':' +
+//     (process.env.MONGO_PORT || '27017') +
+//     '/mernproject'
+// }
 
 export default config
